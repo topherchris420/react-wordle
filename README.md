@@ -25,7 +25,7 @@ $> docker build -t stanfordle:dev -f docker/Dockerfile .
 $> docker run -d -p 3000:3000 --name stanfordle-dev stanfordle:dev
 ```
 
-Open [http://localhost:3001](http://localhost:3001) in browser.
+Open [http://localhost:3000](http://localhost:3000) in browser.
 
 #### Production
 
