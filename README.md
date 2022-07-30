@@ -21,17 +21,17 @@ $> npm run start
 #### Development
 
 ```bash
-$> docker build -t reactle:dev -f docker/Dockerfile .
-$> docker run -d -p 3000:3000 --name reactle-dev reactle:dev
+$> docker build -t stanfordle:dev -f docker/Dockerfile .
+$> docker run -d -p 3000:3000 --name stanfordle-dev stanfordle:dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in browser.
+Open [http://localhost:3001](http://localhost:3001) in browser.
 
 #### Production
 
 ```bash
-$> docker build --target=prod -t reactle:prod -f docker/Dockerfile .
-$> docker run -d -p 80:8080  --name reactle-prod reactle:prod
+$> docker build --target=prod -t stanfordle:prod -f docker/Dockerfile .
+$> docker run -d -p 80:8080  --name stanfordle-prod stanfordle:prod
 ```
 
 Open [http://localhost](http://localhost) in browser.
