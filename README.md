@@ -1,6 +1,6 @@
 # Wordle
 
-This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind.
+This is a clone project of the popular word guessing game we all know and love. Made using React, Typescript, and Tailwind. Launched on IPFS
 
 [**Try out the demo!**](https://stanforddaily.on.fleek.co/)
 
